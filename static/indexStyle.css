@@ -1,0 +1,65 @@
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.navBlock{
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.functionBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+    width: 20%;
+    height: 400px;
+}
+
+.postBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+    width: 800px;
+    height: 800px;
+}
+
+.recommendBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+    width: 20%;
+    height: 400px;
+    margin-left: 60px;
+}
+
+
+.postContent{
+    width: 400px;
+    border: solid 1px;
+    height: 300px;
+}
+
+.postFirstLine{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+}
+
