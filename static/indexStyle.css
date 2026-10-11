@@ -1,6 +1,6 @@
 .nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
     border: 1px solid;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -12,19 +12,36 @@
     text-align: center;
 }
 
+.clubBlock{
+    text-align: center;
+    width: 100%;
+}
+
 .mainContent{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
 .functionBlock{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    border: solid 1px;
     width: 20%;
-    height: 400px;
+    margin-left: 100px;
+}
+
+.club{
+    height: auto;
+    border: solid 1px;
+    width: 200px;
+}
+
+.recommend{
+    height: auto;
+    border: solid 1px;
+    width: 200px;
 }
 
 .postBlock{
@@ -38,11 +55,7 @@
 }
 
 .recommendBlock{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    border: solid 1px;
     width: 20%;
     height: 400px;
     margin-left: 60px;
